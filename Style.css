@@ -1,0 +1,12 @@
+﻿
+
+body {
+    max-width: 1190px;
+    border: 2px #c4c4c4 solid;
+    margin: auto;
+    display: flex;
+}
+
+p {
+    color: #424242;
+}
