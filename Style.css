@@ -25,8 +25,7 @@ aside {
 
 #photo {
     display: flex;
-    margin: 60px 80px 40px 80px;
-
+    margin: 60px 80px 40px 50px;
 }
 
 aside img {
@@ -82,6 +81,11 @@ h1 {
     font-size: 50px;
 }
 
+h4 {
+    font-size: 16px;
+    font-weight: inherit;
+}
+
 #title_color {
     color: #FDD835;
 }
@@ -114,7 +118,7 @@ section {
 .container {
     display: flex;
     padding-bottom: 45px;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .period {
@@ -124,12 +128,32 @@ section {
 }
 
 .period i {
-    font-size: 13px;
     color: #ffcf00;
     margin-right: 15px;
-    padding: 4px;
+
 }
 
-i[class*="far"] {
-    font-size: 19px;
-    padding: 0;
+.period {
+    width: 30%;
+}
+
+.description {
+    width: 70%;
+}
+
+.period p, h3 {
+    margin: 0px;
+}
+
+.ref {
+      margin: 0px;
+}
+
+.ref i {
+    color: #ffcf00;
+    margin-right: 15px;
+}
+
+.ref h3, p {
+    margin-bottom: 10px;
+}
