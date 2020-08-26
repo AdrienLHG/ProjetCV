@@ -106,6 +106,30 @@ h2 i {
     border-bottom: 2px #FDD835 solid;
 }
 
-#section {
+section {
     display: flex;
     flex-direction: column;
+}
+
+.container {
+    display: flex;
+    padding-bottom: 45px;
+    justify-content: space-around
+}
+
+.period {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 50px;
+}
+
+.period i {
+    font-size: 13px;
+    color: #ffcf00;
+    margin-right: 15px;
+    padding: 4px;
+}
+
+i[class*="far"] {
+    font-size: 19px;
+    padding: 0;
