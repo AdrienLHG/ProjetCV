@@ -44,6 +44,7 @@ aside img {
     max-height: 250px;
     border: 2px #616161 solid;
     border-radius: 100%;
+    margin: auto;
 }
 
 aside h2 {
@@ -55,7 +56,7 @@ aside h2 {
 
 aside p {
     text-align: justify;
-    padding: 20px 25px 20px 25px;
+    padding: 30px 25px 105px 25px;
 }
 
 
@@ -131,7 +132,7 @@ section {
     flex-direction: column;
 }
 
-.container {
+.container, .container2, .container3 {
     display: flex;
     padding-bottom: 45px;
     justify-content: space-around;
@@ -172,4 +173,103 @@ section {
 
 .ref h3, p {
     margin-bottom: 10px;
+}
+
+/* Media Queries - responsive */
+
+@media screen and (max-width: 1024px) {
+    aside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        margin-top: 250px;
+        border: none;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    aside p {
+        padding: 30px 25px 30px 25px;
+        text-align: center;
+    }
+        #title {
+        position: absolute;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        margin: 15px auto 0px auto;
+    }
+
+    #photo {
+        display: flex;
+        margin: 60px 80px 40px 80px;
+    }
+
+    h2 .fas {
+        display: none;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .container .description {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .container2, .container3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container2 .period {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container2 h3 {
+        margin: 20px auto 20px 0px;
+        text-align: center;
+    }
+
+    .container2 h4 {
+        margin: 20px auto 20px 0px;
+        text-align: center;
+    }
+
+    .description {
+        margin: 20px 0px 20px 0px;
+        text-align: justify;
+    }
+
+    .container3 {
+        text-align: center;
+    }
+
+    .ref {
+        margin-bottom: 20px;
+    }
+
+    #bas {
+        flex: 6;
+    }
+}
+@media screen and (max-width: 768px) {
+
+   .description {
+        margin: 20px 0px 20px 0px;
+        text-align: justify;
+        width: 100%;
+    }
+
+    #bas {
+        display: none;
+    }
 }
