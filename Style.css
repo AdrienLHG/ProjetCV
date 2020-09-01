@@ -197,6 +197,7 @@ section {
         text-align: center;
         top: 0px;
         left: 0px;
+        right: 0px;
         margin: 15px auto 0px auto;
     }
 
@@ -281,7 +282,7 @@ section {
     }
 
     #bas {
-        top: 3100px;
+        top: 3200px;
     }
 }
 
