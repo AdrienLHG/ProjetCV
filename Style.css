@@ -1,4 +1,4 @@
-﻿body {
+body {
     max-width: 1190px;
     display: flex;
     margin: auto;
@@ -132,6 +132,7 @@ section {
     padding-bottom: 45px;
 }
 
+
 .container3 {
    
     justify-content: space-around;
@@ -214,8 +215,13 @@ section {
         text-align: center;
     }
 
+
     .container2 h2, container3 h2 {
         text-align: center;
+    }
+
+    .container h4 {
+        text-align: left;
     }
 
     .container3 {
