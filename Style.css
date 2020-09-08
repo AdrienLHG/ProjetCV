@@ -105,6 +105,7 @@ h4 {
 
 #title p {
     font-size: 30px;
+    margin-bottom: 40px;
 }
 
 #title_border {
@@ -118,7 +119,8 @@ h2 i {
 }
 
 #content h2 {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
+    margin-bottom: 40px;
     border-bottom: 2px #FDD835 solid;
 }
 
@@ -193,6 +195,11 @@ section {
         margin: 30px 35px 30px 35px;
         text-align: center;
     }
+
+#content {
+      padding: 65px;
+}
+
     #title {
         position: absolute;
         text-align: center;
@@ -263,7 +270,7 @@ section {
     }
     #bas {
         position: absolute;
-        top: 3000px;
+        top: 3030px;
         background-color: #FDD835;
     }
     
@@ -280,6 +287,9 @@ section {
         display: block;
         margin: 60px 80px 40px 80px;
     }
+    #bas {
+        top: 2920px;
+    }
 
 }
 
@@ -290,7 +300,7 @@ section {
     }
 
     #bas {
-        top: 3100px;
+        top: 3200px;
     }
 }
 
@@ -316,4 +326,9 @@ section {
     h4, p {
         font-size: 13px;
     }
+
+@media screen and (max-width: 320px) {
+
+    #bas {
+        top: 2980px;
 }
