@@ -196,9 +196,9 @@ section {
         text-align: center;
     }
 
-#content {
+    #content {
       padding: 65px;
-}
+    }
 
     #title {
         position: absolute;
@@ -331,4 +331,6 @@ section {
 
     #bas {
         top: 2980px;
+    }
+
 }
